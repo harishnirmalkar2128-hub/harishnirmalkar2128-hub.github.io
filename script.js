@@ -413,14 +413,28 @@ function openModal(index) {
     if (modalDescription) {
         modalDescription.textContent = cert.description || '';
     }
-    // Download
+    // Download - with improved handling
     const ext = cert.image.split('.').pop();
+    const fileName = `${cert.title.replace(/\s+/g, '_')}.${ext}`;
     modalDownload.href = cert.image;
-    modalDownload.setAttribute('download', `${cert.title.replace(/\s+/g, '_')}.${ext}`);
-    // Full view
+    modalDownload.setAttribute('download', fileName);
+    modalDownload.onclick = function(e) {
+        // Try native download first
+        e.preventDefault();
+        downloadFile(cert.image, fileName);
+        return false;
+    };
+    // Full view - opens in new tab
     const modalFullView = document.getElementById('modalFullView');
     if (modalFullView) {
         modalFullView.href = cert.image;
+        modalFullView.target = '_blank';
+        modalFullView.rel = 'noopener noreferrer';
+        modalFullView.onclick = function(e) {
+            e.preventDefault();
+            window.open(cert.image, '_blank', 'noopener,noreferrer');
+            return false;
+        };
     }
     // Verify
     const modalVerify = document.getElementById('modalVerify');
@@ -437,6 +451,17 @@ function openModal(index) {
     document.body.style.overflow = 'hidden';
     // Focus close button for accessibility
     if (closeBtn) closeBtn.focus();
+}
+
+// Download file helper function
+function downloadFile(url, fileName) {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 function closeModal() {
