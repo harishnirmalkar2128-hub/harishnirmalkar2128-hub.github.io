@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Nirmalkar | Modern Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">&lt;Portfolio /&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="greet">👋 Hello, I'm</span>
+                <h1 class="glitch">Harish Nirmalkar</h1>
+                <div class="typing-container">
+                    <span class="static-text">I'm a </span>
+                    <span id="typing" class="typing"></span>
+                </div>
+                <p class="hero-description">
+                    Hello! I've just embarked on my Master of Computer Applications with artificial intelligence (MCA + AI/ML)  journey at Rungta International Skills University, Bhilai , and I'm thrilled to dive deep into the world of technology & Artificial Intelligence. <br>
+
+                🚀MY GOAL:
+                  • Professional Growth: Enhancing my verbal and written communication skills for the tech industry.
+
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="#projects" class="btn secondary">View Work</a>
+                    <a href="resume.pdf" download class="btn outline">📄 Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card1">
+                    <span>🐍 Python</span>
+                </div>
+                <div class="floating-card card2">
+                    <span>🤖 AI ML</span>
+                </div>
+                <div class="floating-card card3">
+                    <span>📊 DSA</span>
+                </div>
+                <div class="floating-card card4">
+                    <span>🤖 DBMS</span>
+                </div>
+                
+                <div class="floating-card card5">                    <span>Communication Profeciancy</span>
+                </div>
+              <!-- Rotating ring hata diya, sirf photo circle -->
+       <div class="profile-circle">
+    <img src="assets/harish.png" alt="Harish Nirmalkar" onerror="this.onerror=null; this.src='https://via.placeholder.com/280?text=Harish Nirmalkar'">
+</div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="education">
+    <h2 class="section-title">My <span>Education</span></h2>
+    
+    <div class="education-timeline">
+        <div class="edu-item">
+            <div class="edu-year">2025 - 2027</div>
+            <div class="edu-content">
+                <h3>MCA (AI & ML)</h3>
+                <p class="edu-college">Rungta International Skills University, Bhilai</p>
+                <p class="edu-desc">Rungta International Skill University
+MCA (AI ML) Student | September 2025 - Present
+
+Currently pursuing my Master's in Computer Applications. My college goals are to solidify my Python programming skills and significantly improve my communication abilities through the Toastmasters Club.</p>
+                <p class="edu-desc">2nd Semester • Current CGPA: 8.5</p>
+            </div>
+        </div>
+        
+        <div class="edu-item">
+            <div class="edu-year">2022 - 2024</div>
+            <div class="edu-content">
+                <h3>BCA</h3>
+                <p class="edu-college">GD Rungta College Of Science & Technology,KOHKA, Bhilai</p>
+                <p class="edu-desc">I completed my BCA where I learned programming languages like Python, C, C++, and .NET. I also studied important subjects like Operating Systems, Computer Basics, and Maths. This degree gave me a strong base in computer science. 
+The main things I learned are:
+
+· How to code in Python, C, C++, and .NET
+· How Operating Systems work
+· Computer Fundamentals and Maths for problem-solving
+ This prepared me well for a job in the tech field.</p>
+                <p class="edu-desc">Graduated with 60%</p>
+            </div>
+        </div>
+        
+        <div class="edu-item">
+            <div class="edu-year">2020 - 2021</div>
+            <div class="edu-content">
+                <h3>12th (Senior Secondary)</h3>
+                <p class="edu-college">Shram Niketan Hr Sec School ACC Jamul, Bhilai</p>
+               <p class="edu-desc">Completed Class 12 under the CGBSE board in
+the Commerce stream with Computer Application,
+gaining strong foundations in programming
+concepts.</p>
+                <p class="edu-desc">CGBSE Board • 89%</p>
+            </div>
+        </div>
+        
+        <div class="edu-item">
+            <div class="edu-year">2019 - 2020</div>
+            <div class="edu-content">
+                <h3>10th (Secondary)</h3>
+                <p class="edu-college">Shram Niketan Hr Sec School ACC Jamul, Bhilai</p>
+               <p class="edu-desc">Completed CGBSE 10 with a strong foundation
+in core subjects including Mathematics,
+Social Science , Science and English etc.</p>
+                <p class="edu-desc">CGBSE Board • 66%</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="language">Languages</button>
+                <button class="filter-btn" data-filter="library">Libraries</button>
+                <button class="filter-btn" data-filter="tool">Tools</button>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skills will be loaded via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            
+            <div class="projects-grid">
+                <!-- Projects will be loaded via JavaScript -->
+            </div>
+        </section>
+<!-- Certificates Section -->
+<section id="certificates" class="certificates">
+    <h2 class="section-title">My <span>Certificates</span></h2>
+    <div class="certificates-grid" id="certificatesGrid">
+        <!-- Certificates will be loaded via JavaScript -->
+    </div>
+</section>
+
+<!-- Certificate Modal (Popup) -->
+<div id="certModal" class="modal">
+    <span class="modal-close" tabindex="0" aria-label="Close certificate preview">&times;</span>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <img class="modal-image" id="modalImage" src="" alt="Certificate Preview" loading="lazy" />
+        <div class="modal-info">
+            <h3 id="modalTitle"></h3>
+            <p id="modalIssuer"></p>
+            <div id="modalTags" class="modal-tags"></div>
+            <p id="modalDescription" class="modal-description"></p>
+            <div class="modal-actions">
+                <a href="#" id="modalDownload" class="btn primary" download tabindex="0">📥 Download</a>
+                <a href="#" id="modalFullView" class="btn outline" target="_blank" rel="noopener">🔍 View Full Size</a>
+                <a href="#" id="modalVerify" class="btn secondary" target="_blank" rel="noopener" style="display:none;">✔️ Verify</a>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <span class="icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:harishnirmalkar2128@gmail.com">harishnirmalkar2128@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="icon">📱</span>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919131653589">+91 91316 53589</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Bhilai, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/harish-nirmalkar-b23776394" class="social-link" target="_blank">💼 LinkedIn</a>
+                        <a href="https://instagram.com/harish._.nirmalkar" class="social-link" target="_blank">📸 Instagram</a>
+                        <a href="https://github.com/harishnirmalkar2128-hub" class="social-link" target="_blank">🐙 GitHub</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message ✈️</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Harish Nirmalkar. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
