@@ -31,33 +31,40 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
 ---
+harishnirmalkar2128-hub.github.io/
+├── index.html
+├── style.css
+├── script.js
+├── resume.pdf
+├── README.md
+├── assets/
+│   └── harish.jpg
+└── certificates/
+    ├── python-programming.jpg
+    ├── linux-foundations.jpg
+    ├── ai-ml-foundations.jpg
+    └── mysql-database.jpg
 
-## 📂 Project Structure
-├── index.html # Main HTML file
-├── style.css # All styles (dark/light mode)
-├── script.js # JavaScript functionality
-├── resume.pdf # Downloadable resume
-├── assets/ # Profile images
-│ └── harish.jpg
-└── certificates/ # Certificate images
-├── python-programming.jpg
-├── linux-foundations.jpg
-├── ai-ml-foundations.jpg
-└── mysql-database.jpg
+## 📬 Connect with Me
 
+| Platform | Link |
+|----------|------|
+| 💼 **LinkedIn** | [harish-nirmalkar-b23776394](https://linkedin.com/in/harish-nirmalkar-b23776394) |
+| 📸 **Instagram** | [@harish._.nirmalkar](https://instagram.com/harish._.nirmalkar) |
+| 🐙 **GitHub** | [harishnirmalkar2128-hub](https://github.com/harishnirmalkar2128-hub) |
+| 📧 **Email** | [harishnirmalkar2128@gmail.com](mailto:harishnirmalkar2128@gmail.com) |
 
-📬 Connect with Me
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+📍 **Location:** Bhilai, India
+
 
 📧 Email: harishnirmalkar2128@gmail.com
+
 📍 Location: Bhilai, India
 
 🌟 Show Your Support
 If you like this project, please give it a ⭐ on GitHub — it motivates me to build more!
 
-https://img.shields.io/github/stars/harishnirmalkar2128-hub/harishnirmalkar2128-hub.github.io?style=social
+
 
 Made with ❤️ by Harish Nirmalkar
-MCA (AI ML) Student | Python Developer | Tech Enthusiast
+
