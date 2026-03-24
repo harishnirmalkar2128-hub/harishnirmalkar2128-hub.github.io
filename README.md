@@ -42,8 +42,9 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 ├── 📄 resume.pdf # Downloadable resume
 
 ├── 📁 assets/ # Profile images
-│ └── 🖼️ harish.jpg
-└── 📁 certificates/ # Certificate images
+│      └── 🖼️ harish.jpg
+└── 📁 certificates/ # Certificate images  
+
 ├── 🐍 python-programming.jpg
 
 ├── 🐧 linux-foundations.jpg
