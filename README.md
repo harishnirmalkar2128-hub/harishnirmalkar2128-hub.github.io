@@ -30,20 +30,8 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
----
-harishnirmalkar2128-hub.github.io/
-├── index.html
-├── style.css
-├── script.js
-├── resume.pdf
-├── README.md
-├── assets/
-│   └── harish.jpg
-└── certificates/
-    ├── python-programming.jpg
-    ├── linux-foundations.jpg
-    ├── ai-ml-foundations.jpg
-    └── mysql-database.jpg
+## 📂 Project Structure
+
 
 ## 📬 Connect with Me
 
