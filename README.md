@@ -31,7 +31,26 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
 ## 📂 Project Structure
+📁 harishnirmalkar2128-hub.github.io/
 
+├── 📄 index.html # Main HTML file
+
+├── 🎨 style.css # All styles (dark/light mode)
+
+├── ⚡ script.js # JavaScript functionality
+
+├── 📄 resume.pdf # Downloadable resume
+
+├── 📁 assets/ # Profile images
+│ └── 🖼️ harish.jpg
+└── 📁 certificates/ # Certificate images
+├── 🐍 python-programming.jpg
+
+├── 🐧 linux-foundations.jpg
+
+├── 🤖 ai-ml-foundations.jpg
+
+└── 🗄️ mysql-database.jpg
 
 ## 📬 Connect with Me
 
