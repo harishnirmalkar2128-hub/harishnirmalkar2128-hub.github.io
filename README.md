@@ -57,10 +57,6 @@ harishnirmalkar2128-hub.github.io/
 📍 **Location:** Bhilai, India
 
 
-📧 Email: harishnirmalkar2128@gmail.com
-
-📍 Location: Bhilai, India
-
 🌟 Show Your Support
 If you like this project, please give it a ⭐ on GitHub — it motivates me to build more!
 
