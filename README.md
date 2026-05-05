@@ -32,29 +32,16 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 
 ## 📂 Project Structure
 📁 harishnirmalkar2128-hub.github.io/
-
-├── 📄 index.html # Main HTML file
-
-├── 🎨 style.css # All styles (dark/light mode)
-
-├── ⚡ script.js # JavaScript functionality
-
-├── 📄 resume.pdf # Downloadable resume
-
-├── 📁 assets/ # Profile images
-│     
-     └── 🖼️ harish.jpg
-     
-
-   └── 📁 certificates/ # Certificate images  
-
-├── 🐍 python-programming.jpg
-
-├── 🐧 linux-foundations.jpg
-
-├── 🤖 ai-ml-foundations.jpg
-
-└── 🗄️ mysql-database.jpg
+├── 📄 index.html
+├── 🎨 style.css
+├── ⚡ script.js
+├── 📁 assets/          
+│   ├── 🖼️ profile.jpg  
+│   ├── 📁 certificates/ 
+│   │   ├── 🐍 python.jpg
+│   │   └── 🗄️ mysql.jpg
+│   └── 📁 icons/       
+└── 📄 resume.pdf
 
 ## 📬 Connect with Me
 
