@@ -16,7 +16,7 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 | 📱 **Fully Responsive** | Works perfectly on desktop, tablet, and mobile |
 | 🖼️ **Certificate Gallery** | Click to view full-size with download option |
 | 📚 **Education Timeline** | Clean, scrollable academic journey |
-| 💼 **16+ Projects Showcase** | Python, GUI, Tkinter, and more |
+| 💼 **Projects Showcase** | Python, GUI, Tkinter, and more |
 | 📄 **Resume Download** | One-click PDF download |
 | 🎨 **Smooth Animations** | Scroll reveals, hover effects, custom cursor |
 | ⚡ **Performance Optimized** | Fast loading with optimized assets |
