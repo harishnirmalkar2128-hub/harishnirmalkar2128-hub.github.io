@@ -60,7 +60,6 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 | Platform | Link |
 |----------|------|
 | 💼 **LinkedIn** | [harish-nirmalkar-b23776394](https://linkedin.com/in/harish-nirmalkar-b23776394) |
-| 📸 **Instagram** | [@harish._.nirmalkar](https://instagram.com/harish._.nirmalkar) |
 | 🐙 **GitHub** | [harishnirmalkar2128-hub](https://github.com/harishnirmalkar2128-hub) |
 | 📧 **Email** | [harishnirmalkar2128@gmail.com](mailto:harishnirmalkar2128@gmail.com) |
 
