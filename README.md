@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio website! This is a fully responsive, modern portfolio built with pure HTML, CSS, and JavaScript — no frameworks, just clean code and creativity.
 
-🔗 **Live Demo:** [https://harishnirmalkar2128-hub.github.io](https://harishnirmalkar2128-hub.github.io)
+🔗 **Live Demo:** [https://harishnirmalkar2128-hub.github.io](https://harishnirmalkar2128-hub.github.io/)
 
 ---
 
