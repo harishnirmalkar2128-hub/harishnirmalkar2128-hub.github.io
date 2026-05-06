@@ -147,49 +147,16 @@ const projectsData = [
         title: 'Modern Calculator',
         description: 'GUI calculator with dark mode, keyboard support, and history tracking.',
         tech: ['Python', 'Tkinter'],
-        demo: '#',
-        code: '#'
-    },/*
-    {
-        icon: '📚',
-        title: 'PDF Master Pro',
-        description: 'All-in-one PDF tool: merge, split, compress, and password protect.',
-        tech: ['Python', 'PyPDF2', 'Pillow'],
-        demo: '#',
-        code: '#'
+        code: 'https://github.com/harishnirmalkar2128-hub/Modern-Calculator-pro'
     },
-    {
-        icon: '🎤',
-        title: 'Voice to Text',
-        description: 'Real-time speech recognition with Hindi/English support.',
-        tech: ['Python', 'SpeechRecognition'],
-        demo: '#',
-        code: '#'
-    },*/
+    
     {
         icon: '🔐',
         title: 'Password Generator',
         description: 'Secure password generator with strength meter and history.',
         tech: ['Python', 'CustomTkinter'],
-        demo: '#',
-        code: '#'
-    },/*
-    {
-        icon: '🏦',
-        title: 'Bank System',
-        description: 'Bank management system with account creation and transactions.',
-        tech: ['Python', 'JSON'],
-        demo: '#',
-        code: '#'
+        code: 'https://github.com/harishnirmalkar2128-hub/Password_Generator'
     },
-    {
-        icon: '📱',
-        title: 'Contact Book',
-        description: 'Digital contact book with search, update, and backup features.',
-        tech: ['Python', 'JSON'],
-        demo: '#',
-        code: '#'
-    }*/
 ];
 
 // Load Skills
@@ -230,7 +197,7 @@ function loadProjects() {
                 ${project.tech.map(t => `<span>${t}</span>`).join('')}
             </div>
             <div class="project-links">
-                <a href="${project.demo}" class="project-link" target="_blank">Live Demo →</a>
+                ${project.demo && project.demo !== '#' ? `<a href="${project.demo}" class="project-link" target="_blank">Live Demo →</a>` : ''}
                 <a href="${project.code}" class="project-link" target="_blank">GitHub →</a>
             </div>
         </div>
