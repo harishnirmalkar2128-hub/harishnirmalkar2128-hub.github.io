@@ -129,9 +129,6 @@ const skillsData = [
     
     // Libraries
     { name: 'Tkinter', icon: '🖼️', level: 80, category: 'library' },
-    { name: 'PyPDF2', icon: '📄', level: 75, category: 'library' },
-    { name: 'Matplotlib', icon: '📊', level: 65, category: 'library' },
-    { name: 'SpeechRecognition', icon: '🎤', level: 70, category: 'library' },
     { name: 'Pillow', icon: '🖼️', level: 70, category: 'library' },
     { name: 'CustomTkinter', icon: '🎯', level: 75, category: 'library' },
     
@@ -152,7 +149,7 @@ const projectsData = [
         tech: ['Python', 'Tkinter'],
         demo: '#',
         code: '#'
-    },
+    },/*
     {
         icon: '📚',
         title: 'PDF Master Pro',
@@ -168,7 +165,7 @@ const projectsData = [
         tech: ['Python', 'SpeechRecognition'],
         demo: '#',
         code: '#'
-    },
+    },*/
     {
         icon: '🔐',
         title: 'Password Generator',
@@ -176,7 +173,7 @@ const projectsData = [
         tech: ['Python', 'CustomTkinter'],
         demo: '#',
         code: '#'
-    },
+    },/*
     {
         icon: '🏦',
         title: 'Bank System',
@@ -192,7 +189,7 @@ const projectsData = [
         tech: ['Python', 'JSON'],
         demo: '#',
         code: '#'
-    }
+    }*/
 ];
 
 // Load Skills
