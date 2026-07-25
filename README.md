@@ -67,7 +67,7 @@ Welcome to my personal portfolio website! This is a fully responsive, modern por
 
 
 🌟 Show Your Support
-If you like this project, please give it a ⭐ on GitHub — it motivates me to build more!
+If you like this project, please give it a ⭐ on GitHub — it motivates me to build more
 
 
 
